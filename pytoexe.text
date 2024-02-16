@@ -1,0 +1,7 @@
+#python to py executable file
+# py>>exe
+
+pyinstaller main.py --onefile -w
+
+WITH ICON
+#pyinstaller -w -F -i ".\iconname.ico" .\pyfile
