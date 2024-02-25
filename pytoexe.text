@@ -5,3 +5,8 @@ pyinstaller main.py --onefile -w
 
 WITH ICON
 #pyinstaller -w -F -i ".\iconname.ico" .\pyfile
+
+pyinstaller --onefile --noconsole --clean --icon='iconpath\icon.ico' --add-data 'images\JC.ico;.' main.py
+
+
+-w or -windowed and --noconsole eliminates the console in exe
