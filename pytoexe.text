@@ -13,7 +13,7 @@ pyinstaller --onefile --noconsole --clean --icon='iconpath\icon.ico' --add-data 
 
 ADD DATABASE FILE or OTHER FILES
 --add-data 'file.filetype'
---add-data 'database.db;'
+--add-data 'database.db;.'
 
 
 //INTERFERANCE
