@@ -20,3 +20,9 @@ ADD DATABASE FILE or OTHER FILES
 -F or --onefile
 packaging in to onefile can cause false positive virus.
 however, the downside: the exe app should be inside the 'main' folder along with '_interal' folder with internal files.
+
+[UPDATE PIP]
+python -m pip install --upgrade pip
+
+[UPDATE PYINSTALLER]
+python -m pyinstaller install --upgrade pyinstaller
