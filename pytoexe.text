@@ -10,3 +10,13 @@ pyinstaller --onefile --noconsole --clean --icon='iconpath\icon.ico' --add-data 
 
 
 -w or -windowed and --noconsole eliminates the console in exe
+
+ADD DATABASE FILE or OTHER FILES
+--add-data 'file.filetype'
+--add-data 'database.db;'
+
+
+//INTERFERANCE
+-F or --onefile
+packaging in to onefile can cause false positive virus.
+however, the downside: the exe app should be inside the 'main' folder along with '_interal' folder with internal files.
